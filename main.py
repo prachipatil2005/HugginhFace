@@ -12,10 +12,10 @@ def get_answer():
 
     # Validate inputs
     if not context:
-        messagebox.showerror("Error", "Please provide context.")
+        messagebox.showerror("Error", "Please provide Context.")
         return
     if not question:
-        messagebox.showerror("Error", "Please enter a question.")
+        messagebox.showerror("Error", "Please enter a Question.")
         return
 
     # Generate the answer using Hugging Face pipeline
